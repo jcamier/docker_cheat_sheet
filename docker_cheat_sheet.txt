@@ -66,6 +66,9 @@ docker-compose up
 Killing a docker container:
 docker container kill <docker_id>
 
+To see the echo/logs of a container
+docker logs <docker_id>
+
 Remove all stopped containers
 docker container prune
 
