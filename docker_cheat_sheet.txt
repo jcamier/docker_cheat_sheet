@@ -63,8 +63,11 @@ Ctrl+c
 Start a docker container:
 docker-compose up
 
+Stop a docker container - giving it time to shutdown
+docker stop <docker_id>
+
 Killing a docker container:
-docker container kill <docker_id>
+docker kill <docker_id>
 
 To see the echo/logs of a container
 docker logs <docker_id>
