@@ -69,5 +69,8 @@ docker container kill <docker_id>
 Remove all stopped containers
 docker container prune
 
+Remove and delete all containers/images
+docker system prune
+
 # To run local react app in docker container, need to be in directory of current react app
 docker run -p 3000:3000 -v $(pwd):/usr/src -w "/usr/src" node npm start
