@@ -41,7 +41,10 @@ docker rm <docker_id>
 Get details about a container:
 docker inspect (docker id, first two characters)
 
-See all dockers running:
+See all active containers
+docker ps
+
+See all dockers that have been created:
 docker ps -a
 
 See docker ip address:
