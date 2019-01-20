@@ -32,6 +32,9 @@ docker run -i -t <docker_id> /bin/bash
 docker run -i -t <docker_id> /bin/sh
 docker run -it <image_name> sh # will run a docker image with sh shell
 
+To access an already running docker container in a shell
+docker exec -it <container_id> sh
+
 Create an image from a Dockerfile
 docker build --tag <image_name> .
 
