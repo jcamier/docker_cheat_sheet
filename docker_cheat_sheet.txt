@@ -91,3 +91,9 @@ docker system prune
 
 # To run local react app in docker container, need to be in directory of current react app
 docker run -p 3000:3000 -v $(pwd):/usr/src -w "/usr/src" node npm start
+
+Docker compose instructions (requires a docker-compose.yml file):
+docker-compose up --build # to create docker container(s) and run them
+docker-compose up # to run already created containers
+docker-compose down # to close docker containers
+
