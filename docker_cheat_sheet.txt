@@ -32,6 +32,10 @@ docker run -i -t <docker_id> /bin/bash
 docker run -i -t <docker_id> /bin/sh
 docker run -it <image_name> sh # will run a docker image with sh shell
 
+Docker run with volumes:
+docker run -v /<docker_container_file_path> <docker_id>
+docker run -v $(pwd):/<local_file_path> <docker_id>
+
 To access an already running docker container in a shell
 docker exec -it <container_id> sh
 
