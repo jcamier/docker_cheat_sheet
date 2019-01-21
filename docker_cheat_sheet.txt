@@ -42,6 +42,9 @@ Build custom docker container image from Dockerfile
 docker build -t <your_name>/<docker_base_image_name>:<version> .
 ex. docker build -t jcamier/redis:latest .
 
+Build custom docker container with different Dockerfile name example Dockerfile.dev
+docker build -f Dockerfile.dev .
+
 Stop a docker container:
 docker stop <docker_id>
 
