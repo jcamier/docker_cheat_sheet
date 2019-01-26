@@ -36,6 +36,9 @@ Docker run with volumes:
 docker run -v /<docker_container_file_path> <docker_id>
 docker run -v $(pwd):/<local_file_path> <docker_id>
 
+Docker with port specifications
+docker run -it -p 3000:3000 <image_name> # first port is local port, second port is the container port
+
 To access an already running docker container in a shell
 docker exec -it <container_id> sh
 
