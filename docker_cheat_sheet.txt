@@ -51,6 +51,7 @@ ex. docker build -t jcamier/redis:latest .
 
 Build custom docker container with different Dockerfile name example Dockerfile.dev
 docker build -f Dockerfile.dev .
+docker build -t <image_name> -f Dockerfile.dev .
 
 Stop a docker container:
 docker stop <docker_id>
