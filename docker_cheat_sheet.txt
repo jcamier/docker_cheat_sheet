@@ -108,3 +108,9 @@ docker-compose up --build # to create docker container(s) and run them
 docker-compose up # to run already created containers
 docker-compose down # to close docker containers
 
+# List docker volumes
+docker volume ls
+
+# Remove docker volumes
+docker volume rm <volume_name>
+
