@@ -16,6 +16,7 @@ docker pull [OPTIONS] NAME[:TAG|@DIGEST]
 
 See information about your docker environment:
 docker info
+docker stats
 
 See your docker images:
 docker images
@@ -86,7 +87,6 @@ docker-compose up with yml file
 Execute a command in a docker container
 docker exec -it <docker_id> <command>
 
-
 Stop a docker container - giving it time to shutdown
 docker stop <docker_id>
 
@@ -95,6 +95,7 @@ docker kill <docker_id>
 
 To see the echo/logs of a container
 docker logs <docker_id>
+docker-compose logs <service_name>
 
 Remove all stopped containers
 docker container prune
