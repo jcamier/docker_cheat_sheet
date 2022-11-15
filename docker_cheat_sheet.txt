@@ -41,6 +41,7 @@ docker run -it -p 3000:3000 <image_name> # first port is local port, second port
 
 To access an already running docker container in a shell
 docker exec -it <container_id> sh
+docker-compose exec <service_name> bash
 
 Create an image from a Dockerfile
 docker build --tag <image_name> .
@@ -84,6 +85,7 @@ docker-compose up with yml file
 
 Execute a command in a docker container
 docker exec -it <docker_id> <command>
+
 
 Stop a docker container - giving it time to shutdown
 docker stop <docker_id>
